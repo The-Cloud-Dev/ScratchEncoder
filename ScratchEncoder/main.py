@@ -1,5 +1,5 @@
 import logging
-class encoder():
+class ScratchEncoder():
     global chars
     chars = "abcdefghijklmnopqrstuvwxyz0123456789+-. _"
     def encode(text):
