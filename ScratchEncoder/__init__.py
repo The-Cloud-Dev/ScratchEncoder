@@ -1,0 +1,1 @@
+from ScratchEncoder.main import encoder
