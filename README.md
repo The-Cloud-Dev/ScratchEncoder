@@ -9,7 +9,7 @@ pip install ScratchEncoder
 ## Usage
 
 ```python
-encoder = ScratchEncoder()
+encoder = ScratchEncoder.Encoder()
 ```
 
 Initializes a new encoder object.
