@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="ScratchEncoder", 
     url="https://github.com/The-Cloud-Dev/ScratchEncoder",                    
-    version="0.0.2",                        
+    version="0.0.5",                        
     author="TheCloudDev",
     license="MIT",        
     description="Scratch Encoder",
