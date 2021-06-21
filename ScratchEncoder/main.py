@@ -2,7 +2,7 @@ import logging
 class Encoder():
     global chars
     chars = "abcdefghijklmnopqrstuvwxyz0123456789+-. _"
-    def encode(text):
+    def encode(self, text):
         global chars
         text = text.lower()
         encoded = ""
@@ -14,7 +14,7 @@ class Encoder():
             except ValueError:
                 logging.error('Character not supported')
         return encoded
-    def decode(text):
+    def decode(self, text):
         print(text)
         print(len(text)//2)
         decoded = ""
